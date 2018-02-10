@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1770395399</fileChecksum>
+  <configuration>
+    <name>nrf51422_xxac</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\libraries\uart\retarget.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\libraries\util\app_util_platform.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\libraries\util\nrf_assert.c</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$PROJ_DIR$\_build\app_uart_fifo.o</file>
+      <file>$PROJ_DIR$\_build\system_nrf51.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\libraries\util\app_error.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\drivers_nrf\uart\nrf_drv_uart.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\toolchain\iar\iar_startup_nrf51.s</file>
+      <file>$PROJ_DIR$\..\..\main.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\libraries\uart\app_uart_fifo.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\drivers_nrf\hal\nrf_adc.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\libraries\fifo\app_fifo.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\drivers_nrf\delay\nrf_delay.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\drivers_nrf\common\nrf_drv_common.c</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\toolchain\system_nrf51.c</file>
+      <file>$PROJ_DIR$\_build\iar_startup_nrf51.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\drivers_nrf\hal\nrf_uart.h</file>
+      <file>$PROJ_DIR$\_build\system_nrf51.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\device\nrf51.h</file>
+      <file>$PROJ_DIR$\_build\main.pbi</file>
+      <file>$PROJ_DIR$\_build\app_fifo.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\libraries\util\app_util.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\simple_adc_iar_nRF5x.icf</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\libraries\util\app_error.h</file>
+      <file>$PROJ_DIR$\_build\simple_adc_pca10028.pbd</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\device\compiler_abstraction.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\libraries\fifo\app_fifo.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\device\nrf51_bitfields.h</file>
+      <file>$PROJ_DIR$\_build\nrf_assert.pbi</file>
+      <file>$PROJ_DIR$\_build\app_util_platform.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\libraries\util\nrf_assert.h</file>
+      <file>$PROJ_DIR$\_build\nrf_adc.pbi</file>
+      <file>$PROJ_DIR$\_build\nrf_drv_common.pbi</file>
+      <file>$PROJ_DIR$\_build\app_uart_fifo.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\libraries\util\app_util_platform.h</file>
+      <file>$PROJ_DIR$\_build\nrf_adc.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\device\nrf51_deprecated.h</file>
+      <file>$PROJ_DIR$\_build\nrf_assert.o</file>
+      <file>$PROJ_DIR$\_build\app_error.pbi</file>
+      <file>$PROJ_DIR$\_build\nrf_drv_uart.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\libraries\uart\app_uart.h</file>
+      <file>$PROJ_DIR$\_build\simple_adc_pca10028.out</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+      <file>$PROJ_DIR$\_build\nrf_delay.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\libraries\util\nordic_common.h</file>
+      <file>$PROJ_DIR$\..\..\config\nrf_drv_config.h</file>
+      <file>$PROJ_DIR$\_build\app_fifo.o</file>
+      <file>$PROJ_DIR$\_build\main.__cstat.et</file>
+      <file>$PROJ_DIR$\_build\app_util_platform.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\boards.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\_build\nrf_drv_uart.o</file>
+      <file>$PROJ_DIR$\_build\nrf_drv_common.o</file>
+      <file>$PROJ_DIR$\_build\nrf_assert.__cstat.et</file>
+      <file>$PROJ_DIR$\_build\nrf_drv_uart.__cstat.et</file>
+      <file>$PROJ_DIR$\_build\retarget.o</file>
+      <file>$PROJ_DIR$\_build\app_util_platform.pbi</file>
+      <file>$PROJ_DIR$\_build\simple_adc_pca10028.map</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\_build\app_error.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\libraries\util\sdk_errors.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\drivers_nrf\delay\nrf_delay.h</file>
+      <file>$PROJ_DIR$\_build\app_fifo.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\_build\nrf_delay.o</file>
+      <file>$PROJ_DIR$\_build\nrf_adc.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\drivers_nrf\common\nrf_drv_common.h</file>
+      <file>$PROJ_DIR$\_build\app_uart_fifo.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\bsp\pca10028.h</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tlf.a</file>
+      <file>$PROJ_DIR$\_build\nrf_drv_common.__cstat.et</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\drivers_nrf\hal\nrf_adc.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\drivers_nrf\uart\nrf_drv_uart.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\_build\system_nrf51.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\drivers_nrf\config\nrf_drv_config_validation.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\toolchain\system_nrf51.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\_build\app_error.o</file>
+      <file>$PROJ_DIR$\_build\retarget.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\_build\main.o</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\components\device\nrf.h</file>
+      <file>$PROJ_DIR$\_build\simple_adc_pca10028.hex</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\_build\nrf_delay.pbi</file>
+      <file>$PROJ_DIR$\_build\retarget.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm0.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\components\libraries\uart\retarget.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 98</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 101 67 89 37 43 96 104 99 30 102 81 83 49 64 88 48 70 56 94 19 39 85 86 92 45 75</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45 67 96 88 104 89 48 70 64 101 99 43 56 37 28 94 19 102 86 83 92 81 85 30 39 49 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 44 63</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\components\libraries\util\app_util_platform.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104 96 94 67 39 99 89 19 102 81 83 28 88 48 70 30 85 86 92 37</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37 99 67 96 88 104 89 48 70 28 94 19 102 86 83 92 81 85 30 39</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\components\libraries\util\nrf_assert.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 59</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67 89 99 104 96 88 48 70 33 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33 99 67 96 88 104 89 48 70 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\components\libraries\util\app_error.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85 96 39 48 70 99 28 19 86 67 88 92 83 25 49 30 102 81 104 89 56 94 75</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 19 102 99 67 96 88 104 89 48 70 86 83 92 81 85 30 39 28 25 56 75 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\components\drivers_nrf\uart\nrf_drv_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 60</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 99 96 56 27 17 30 102 81 70 49 50 28 67 84 33 73 37 66 94 55 19 39 85 86 88 92 83 80 104 89 64 75</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80 17 94 19 102 99 67 96 88 104 89 48 70 86 83 92 81 85 30 39 28 55 64 56 66 75 50 84 33 49 73 27 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\components\toolchain\iar\iar_startup_nrf51.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 16</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43 30 70 99 86 88 92 67 79 68 28 102 48 96 83 87 55 37 100 56 45 54 25 19 39 85 81 104 89 101 94 103 64 27 76 75</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 94 19 102 99 67 96 88 104 89 48 70 86 83 92 81 85 30 39 28 100 87 103 56 45 64 101 79 55 54 27 76 43 37 25 75 68</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\components\libraries\uart\app_uart_fifo.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67 99 83 89 30 102 81 55 80 37 96 104 28 50 29 56 88 48 70 94 19 39 85 86 92 23 64 17 75 43 33 66 84</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43 99 67 96 88 104 89 48 70 56 37 28 94 19 102 86 83 92 81 85 30 39 29 23 64 80 17 55 66 75 50 84 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\components\drivers_nrf\hal\nrf_adc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83 96 92 94 88 39 85 56 48 70 19 86 67 99 55 64 104 89 30 28 102 81 79</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 79 56 55 67 96 88 104 89 48 70 64 94 19 102 99 86 83 92 81 85 30 39 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\components\libraries\fifo\app_fifo.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 69</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 67 88 99 96 48 22 70 75 23 56 29 104 89 64 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29 99 67 96 88 104 89 48 70 23 64 75 22 56 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\components\drivers_nrf\delay\nrf_delay.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88 92 67 96 30 85 94 64 48 70 86 99 28 101 104 89 19 39 102 81 83 45 68</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45 67 96 88 104 89 48 70 64 101 28 94 19 102 99 86 83 92 81 85 30 39 68</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\components\drivers_nrf\common\nrf_drv_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28 67 89 94 30 102 99 81 96 104 83 19 39 85 86 88 48 70 92 73 33 56 75</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73 94 19 102 99 67 96 88 104 89 48 70 86 83 92 81 85 30 39 28 56 33 75</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\components\toolchain\system_nrf51.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99 89 85 67 39 94 96 104 19 86 92 83 56 88 48 70 30 28 102 81</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99 67 96 88 104 89 48 70 56 94 19 102 86 83 92 81 85 30 39 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\_build\simple_adc_pca10028.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 24 90 51 4 53 16 93 72 40 71 58 57 61 82 3 46 77</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+
